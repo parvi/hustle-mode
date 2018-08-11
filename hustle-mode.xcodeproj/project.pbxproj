@@ -14,6 +14,7 @@
 		CE18DCDD20E1A6370023F10D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE18DCDB20E1A6370023F10D /* LaunchScreen.storyboard */; };
 		CE18DCE820E1A6370023F10D /* hustle_modeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE18DCE720E1A6370023F10D /* hustle_modeTests.swift */; };
 		CE18DCF320E1A6370023F10D /* hustle_modeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE18DCF220E1A6370023F10D /* hustle_modeUITests.swift */; };
+		CE18DD0120E1A7220023F10D /* hustle-on.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE18DD0020E1A7220023F10D /* hustle-on.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CE18DCEE20E1A6370023F10D /* hustle-modeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hustle-modeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE18DCF220E1A6370023F10D /* hustle_modeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hustle_modeUITests.swift; sourceTree = "<group>"; };
 		CE18DCF420E1A6370023F10D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE18DD0020E1A7220023F10D /* hustle-on.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "hustle-on.wav"; path = "hustle-mode-code-assets/assets/Assets/hustle-on.wav"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				CE18DCD220E1A6360023F10D /* AppDelegate.swift */,
+				CE18DD0020E1A7220023F10D /* hustle-on.wav */,
 				CE18DCD420E1A6370023F10D /* ViewController.swift */,
 				CE18DCD620E1A6370023F10D /* Main.storyboard */,
 				CE18DCD920E1A6370023F10D /* Assets.xcassets */,
@@ -235,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE18DD0120E1A7220023F10D /* hustle-on.wav in Resources */,
 				CE18DCDD20E1A6370023F10D /* LaunchScreen.storyboard in Resources */,
 				CE18DCDA20E1A6370023F10D /* Assets.xcassets in Resources */,
 				CE18DCD820E1A6370023F10D /* Main.storyboard in Resources */,
@@ -516,6 +520,7 @@
 				CE18DCF920E1A6370023F10D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE18DCFA20E1A6370023F10D /* Build configuration list for PBXNativeTarget "hustle-modeTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +529,7 @@
 				CE18DCFC20E1A6370023F10D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE18DCFD20E1A6370023F10D /* Build configuration list for PBXNativeTarget "hustle-modeUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +538,7 @@
 				CE18DCFF20E1A6370023F10D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
